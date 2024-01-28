@@ -4,14 +4,12 @@ public class Estudiante {
 	private String nombree;
     private int edadd;
     private String gradoo;
-
-    // Constructor
     public Estudiante(String nombree, int edadd, String gradoo) {
         this.nombree = nombree;
         this.edadd = edadd;
         this.gradoo = gradoo;
     }
-   // Getters y setters
+ 
     public String getNombre() {
         return nombree;
     }
